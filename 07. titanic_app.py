@@ -3,7 +3,7 @@ import streamlit as st
 from sklearn.linear_model import LogisticRegression
 
 # Load the Titanic Dataset
-titanic_deployment = pd.read_csv("C:\\Users\\adwai\\Downloads\\Deployment\\Titanic_deployment_data.csv")
+titanic_deployment = pd.read_csv("C:\\Users\\adwai\\Downloads\\Deployment\\07. Titanic_deployment_data.csv")
 
 # Create target and features
 target_column = ['Survived']
